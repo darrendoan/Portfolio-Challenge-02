@@ -1,0 +1,273 @@
+:root {
+
+}
+
+* {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: block;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 20px 15px 20px 15px;
+    text-align: center;
+    background-color: #231942;
+    color: #fff;
+    font-size: 25px;
+    /* overflow: hidden; */
+}
+
+.header-text {
+    white-space:nowrap ;
+    text-align: center;
+}
+
+.header-section-text {
+    color: #231942;
+    font-size: 60px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.header-section-text p {
+    padding-left: 15px;
+}
+
+nav {
+    width: 100%;
+    float: right;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-menu {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.button {
+    padding: 20px 15px 18.75px 15px;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.nav-menu li {
+    display: inline;
+    text-align: center;
+}
+ 
+nav a::before {
+    background-color:#333;
+}
+
+nav a:hover {
+    background-color:  #be9fc4;
+    color: #231942;
+}
+
+nav a:active {
+    background-color: #04AA6D;
+    color: white;
+} 
+
+/*.work {
+    float: right;
+}*/
+
+.work h2 {
+    float: left;
+    padding-left: 15px;
+}
+
+/*.work-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}*/
+
+/*#line {
+    height: 5px;
+    width: 100%;
+    top: -30px;
+    left: -15px;
+    background-color: aqua;
+} */
+
+.work-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.work-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.work-section {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    /*margin: 0px 0px 0px 300px;*/
+}
+
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #9f86c0;
+    border-radius: 10px;
+    margin: 2px;
+    background-color: #fadadd;
+} 
+
+.card h3 {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card:hover {
+    background-color: #be9fc4;
+}
+
+div h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 20px;
+    background-color: #231942;
+    color: #fff;
+    width: 100%;
+    min-width: 400px;
+}
+
+.card h2 {
+    padding: 20px;
+    /* background: #231942; */
+    color: #fff;
+}
+
+.card img {
+    width: 100%;
+    min-width: 400px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 100px 100px 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-deets:after {
+    content: '';
+    display: block;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 2px solid #9f86c0;
+    margin-top: 40px;
+}
+
+.contact h4 {
+    padding-bottom: 50px;
+}
+
+.big-image {
+    width: 1000px;
+    min-width: none;
+}
+
+#about-me{
+    padding: 25px 15px 25px 15px;
+    /* font-size: 25px; */
+    line-height: 25px;
+}
+
+.about-me {
+    padding-left: 50px;
+    padding-right: 50px;
+    /* border-color: white ;
+    border-bottom: #5e5483;
+    border-width: 2px;
+    border-style: solid; */
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.about-me:after {
+    content: '';
+    display: block;
+    margin-left: 37%;
+    margin-right: 37%;
+    border: 2px solid #9f86c0;
+    margin-top: 40px;
+}
+
+.contact-deets {
+    padding: 20px;
+}
+
+.resume {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #231942;
+    text-align: center;
+    color: #be9fc4;
+}
+
+/* .about-me-header {
+    padding: 0px 0px 20px 15px;
+} */
+
+.about-me h2 {
+    text-align: center;
+}
+
+/* #about-me-line {
+    height: 1px;
+    width: 100%;
+    background-color: #333;
+    /*transform: rotate(90deg)*/;
+
+
+
+/*.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding: 0px 15px 0px 15px;
+    float: right;
+}
+
+.sidenav h2 {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.content {
+    margin-left: 200px;
+  padding-left: 20px;
+} }
