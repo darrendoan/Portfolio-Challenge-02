@@ -8,7 +8,7 @@ Some obstacles that I faced during the challenge was where to start, how to make
 
 After the intial planning phase I then had to style it using CSS. Although the wireframe did help me a bunch, having so much freedom along with the wide variety of customisation made it difficult for me to really settle on a final design for the webpage. 
 
-Although it was difficult, it's only been 2 weeks... meaning I have plenty more to learn and a lot more to add to this project once I get more familiar with HTML, CSS and eventually JavaScript. 
+Although it was difficult, it's only been 2 weeks... meaning I have plenty more to learn and a lot more to add to this project once I get more familiar with HTML, CSS and eventually JavaScript. STAY TUNED!!
 
 ## Usage
 
